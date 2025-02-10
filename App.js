@@ -78,6 +78,13 @@ const App = () => {
               android_zOrderMediaOverlay
               style={StyleSheet.absoluteFill}
             />
+             <DirectCallVideoView
+              resizeMode="cover"
+              viewType="local"
+              callId={callId}
+              android_zOrderMediaOverlay
+              style={StyleSheet.absoluteFill}
+            />
           </View>
           <View style={{height: 350, width: '100%'}}>
             <DirectCallVideoView
